@@ -1,0 +1,12 @@
+.Welcome{
+    color: black;
+    font-family:'Comic sans MS',cursive,sans-serif;
+}
+.text{
+    color:rgba(13, 92, 81, 0.849);
+    font-family:'Comic sans MS',cursive,sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 0;
+}
