@@ -1,24 +1,52 @@
+/* Background */
+body{
+    background-image: url("image/Gold_black.png" );
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+/* ============ H1 =============*/
 .Welcome{
-    color: black;
+    color: rgba(69, 109, 218, 0.767);
     font-family:'Comic sans MS',cursive,sans-serif;
 }
 .text{
-    color:rgba(13, 92, 81, 0.849);
+    color:rgba(255, 255, 255, 0.815);
     font-family:'Comic sans MS',cursive,sans-serif;
     font-size: 19px;
     font-weight: normal;
     line-height: 1.6em;
     margin: 0;
+    align-items: flex-start;
 }
+/* ============ H2 ================*/
 .Work{
-    color: black;
+    color: rgb(208, 218, 69);
     font-family:'Comic sans MS' ,cursive,sans-serif;
 }
 .Work_text{
-    color:rgba(13, 92, 81, 0.849);
+    color:rgb(78, 255, 231);
     font-family:'Comic sans MS',cursive,sans-serif;
     font-size: 19px;
     font-weight: normal;
     line-height: 1.6em;
     margin: 0;
+    align-items:flex-start;
+/* ============== Button =================*/
+}
+.Button{
+    background-color: #ffffff;color: black;
+    font-size: 16px;
+    padding: 12px 28px;
+    border-radius: 50px;
+    transition-duration: 0.4s;
+    border: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.Button:hover{
+    background-color: #ffd9008f ;color: white;
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2), 0 6px 0 rgba(0,0,0,0.19);
 }
